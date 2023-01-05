@@ -1,7 +1,7 @@
 export function verify(str: string): boolean {
   const strIn = str;
   // const nested = [];
-  let counter = false;
+  let counter = true;
   for (let i = 0; i < strIn.length; i++) {
     
     if (strIn[i]==='(') {
